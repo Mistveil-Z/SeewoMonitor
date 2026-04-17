@@ -12,6 +12,11 @@
     <AssemblyVersion>1.1.0.1</AssemblyVersion>
     <FileVersion>1.1.0.1</FileVersion>
     <InformationalVersion>1.1.0.1</InformationalVersion>
+    <ApplicationIcon>SeewoMonitor.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="SeewoMonitor.ico" />
+  </ItemGroup>
 
 </Project>

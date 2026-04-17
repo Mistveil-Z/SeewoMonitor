@@ -57,8 +57,7 @@ class SeewoMonitor
         Log("-----------------------------");
         Log("SeewoMonitor");
         Log("Version 1.1.0.1");
-        Log("Powered by FeltSquirrel727");
-        Log("Improved by Mistveil-Z");
+        Log("Powered by Mistveil-Z and FeltSquirrel727");
         Log("-----------------------------");
         Log($"当前检测程序: {TARGET_PROCESS}.exe");
         Log($"当前检测间隔: {CHECK_INTERVAL} ms");
@@ -115,7 +114,7 @@ class SeewoMonitor
             string a = args[i];
             if (a.StartsWith("--check-interval", StringComparison.OrdinalIgnoreCase))
             {
-                string? value = null; // 允许为 null
+                string? value = null;
                 int eq = a.IndexOf('=');
                 if (eq >= 0 && eq + 1 < a.Length)
                 {
